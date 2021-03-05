@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		ADBC1B5125F1CAB100A768B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC1B5025F1CAB100A768B4 /* AppDelegate.swift */; };
 		ADBC1B5325F1CAB100A768B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC1B5225F1CAB100A768B4 /* SceneDelegate.swift */; };
-		ADBC1B5525F1CAB100A768B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC1B5425F1CAB100A768B4 /* ViewController.swift */; };
+		ADBC1B5525F1CAB100A768B4 /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC1B5425F1CAB100A768B4 /* NewOrderViewController.swift */; };
 		ADBC1B5A25F1CAB400A768B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBC1B5925F1CAB400A768B4 /* Assets.xcassets */; };
 		ADBC1B5D25F1CAB400A768B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBC1B5B25F1CAB400A768B4 /* LaunchScreen.storyboard */; };
+		ADBC1B6925F1CE3B00A768B4 /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC1B6825F1CE3B00A768B4 /* PastOrderViewController.swift */; };
+		ADBC1B6D25F1CEA000A768B4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC1B6C25F1CEA000A768B4 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ADBC1B4D25F1CAB100A768B4 /* BotShopTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BotShopTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBC1B5025F1CAB100A768B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADBC1B5225F1CAB100A768B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ADBC1B5425F1CAB100A768B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADBC1B5425F1CAB100A768B4 /* NewOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrderViewController.swift; sourceTree = "<group>"; };
 		ADBC1B5925F1CAB400A768B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADBC1B5C25F1CAB400A768B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADBC1B5E25F1CAB400A768B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADBC1B6825F1CE3B00A768B4 /* PastOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
+		ADBC1B6C25F1CEA000A768B4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				ADBC1B5025F1CAB100A768B4 /* AppDelegate.swift */,
 				ADBC1B5225F1CAB100A768B4 /* SceneDelegate.swift */,
-				ADBC1B5425F1CAB100A768B4 /* ViewController.swift */,
+				ADBC1B5425F1CAB100A768B4 /* NewOrderViewController.swift */,
+				ADBC1B6825F1CE3B00A768B4 /* PastOrderViewController.swift */,
+				ADBC1B6C25F1CEA000A768B4 /* TabBarController.swift */,
 				ADBC1B5925F1CAB400A768B4 /* Assets.xcassets */,
 				ADBC1B5B25F1CAB400A768B4 /* LaunchScreen.storyboard */,
 				ADBC1B5E25F1CAB400A768B4 /* Info.plist */,
@@ -133,9 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADBC1B5525F1CAB100A768B4 /* ViewController.swift in Sources */,
+				ADBC1B5525F1CAB100A768B4 /* NewOrderViewController.swift in Sources */,
 				ADBC1B5125F1CAB100A768B4 /* AppDelegate.swift in Sources */,
 				ADBC1B5325F1CAB100A768B4 /* SceneDelegate.swift in Sources */,
+				ADBC1B6D25F1CEA000A768B4 /* TabBarController.swift in Sources */,
+				ADBC1B6925F1CE3B00A768B4 /* PastOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
