@@ -19,7 +19,7 @@ class NewOrderViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+        view.backgroundColor = UIColor(red:0.49, green:0.84, blue:0.87, alpha:1.0)
         collectionView.dataSource = self
         collectionView.delegate = self
         setViews()

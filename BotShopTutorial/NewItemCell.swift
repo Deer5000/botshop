@@ -37,7 +37,7 @@ class NewItemCell: UICollectionViewCell {
     let title: UILabel = {
         let title = UILabel()
         title.translatesAutoresizingMaskIntoConstraints = false
-        title.textColor = .white
+        title.textColor = .blue
         title.font = UIFont(name: "AvenirNext-Bold", size: 20)
         title.textAlignment = .center
         title.text = "testing"
