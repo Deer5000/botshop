@@ -17,6 +17,8 @@
 		ADBC1B7125F1D10800A768B4 /* NewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC1B7025F1D10800A768B4 /* NewItemCell.swift */; };
 		ADBC1B7525F1D99200A768B4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC1B7425F1D99200A768B4 /* Item.swift */; };
 		ADBC1B7825F1DEFE00A768B4 /* PastOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC1B7725F1DEFE00A768B4 /* PastOrderCell.swift */; };
+		ADBC1B7C25F1E39000A768B4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC1B7B25F1E39000A768B4 /* Order.swift */; };
+		ADBC1B8025F1E5EA00A768B4 /* OrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC1B7F25F1E5EA00A768B4 /* OrderList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		ADBC1B7025F1D10800A768B4 /* NewItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemCell.swift; sourceTree = "<group>"; };
 		ADBC1B7425F1D99200A768B4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		ADBC1B7725F1DEFE00A768B4 /* PastOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderCell.swift; sourceTree = "<group>"; };
+		ADBC1B7B25F1E39000A768B4 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		ADBC1B7F25F1E5EA00A768B4 /* OrderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,6 @@
 		ADBC1B4425F1CAB100A768B4 = {
 			isa = PBXGroup;
 			children = (
-				ADBC1B7425F1D99200A768B4 /* Item.swift */,
 				ADBC1B4F25F1CAB100A768B4 /* BotShopTutorial */,
 				ADBC1B4E25F1CAB100A768B4 /* Products */,
 			);
@@ -72,6 +75,9 @@
 				ADBC1B6825F1CE3B00A768B4 /* PastOrderViewController.swift */,
 				ADBC1B7725F1DEFE00A768B4 /* PastOrderCell.swift */,
 				ADBC1B6C25F1CEA000A768B4 /* TabBarController.swift */,
+				ADBC1B7B25F1E39000A768B4 /* Order.swift */,
+				ADBC1B7F25F1E5EA00A768B4 /* OrderList.swift */,
+				ADBC1B7425F1D99200A768B4 /* Item.swift */,
 				ADBC1B5925F1CAB400A768B4 /* Assets.xcassets */,
 				ADBC1B5B25F1CAB400A768B4 /* LaunchScreen.storyboard */,
 				ADBC1B5E25F1CAB400A768B4 /* Info.plist */,
@@ -150,7 +156,9 @@
 			files = (
 				ADBC1B5525F1CAB100A768B4 /* NewOrderViewController.swift in Sources */,
 				ADBC1B5125F1CAB100A768B4 /* AppDelegate.swift in Sources */,
+				ADBC1B8025F1E5EA00A768B4 /* OrderList.swift in Sources */,
 				ADBC1B7825F1DEFE00A768B4 /* PastOrderCell.swift in Sources */,
+				ADBC1B7C25F1E39000A768B4 /* Order.swift in Sources */,
 				ADBC1B5325F1CAB100A768B4 /* SceneDelegate.swift in Sources */,
 				ADBC1B6D25F1CEA000A768B4 /* TabBarController.swift in Sources */,
 				ADBC1B7525F1D99200A768B4 /* Item.swift in Sources */,
